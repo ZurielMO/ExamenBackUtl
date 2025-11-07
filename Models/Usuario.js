@@ -40,9 +40,9 @@ export const Usuario = databaseConnection.define(
     },
   },
   {
+    tableName: "usuarios",
     timestamps: true,
     createdAt: "created_at",
     updatedAt: false,
     freezeTableName: true,
-    paranoid: false,
   });
